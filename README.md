@@ -1,2 +1,4 @@
-# PendulumV1
-Simple storage of data for Composer Trade Pendulum Strategy as it develops further. 
+# Quant/Automated Trading Strategies
+ Customizable parameters and assets selection
+ Backtest and Performance Review Analysis.
+ 
