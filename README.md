@@ -1,9 +1,9 @@
 # ETF Covariance Strategy Lab
 
 ## Overview
-This project explores covariance-driven allocation strategies
-across major ETF sectors. The goal is to test whether covariance
-structure can improve tactical allocation decisions relative to
+This project explores covariance-driven allocation strategies across major economic sectors. 
+Through sector specific ETFs and both controled leveraged and inverse ETF exposures. 
+The goal is to test whether covariance structure can improve tactical allocation decisions relative to
 passive benchmarks.
 
 ## Data
@@ -19,7 +19,7 @@ passive benchmarks.
 
 ## Benchmarks
 - SPY (market benchmark)
-- Sector-specific benchmarks (SOXX, XLK, etc.)
+- Sector-specific benchmarks (SOXX, XLK, XLE, etc.)
 
 ## Results
 Include performance charts and summary statistics.
