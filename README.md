@@ -11,21 +11,21 @@ The strategy is based on three components:
 
 1. Covariance Structure Analysis
 
--Estimate covariance relationships between sector ETFs
+- Estimate covariance relationships between sector ETFs
 
--Identify dominant relationships between sectors
+- Identify dominant relationships between sectors
 
 2. Sector Rotation
 
--Allocate capital based on covariance-driven signals
+- Allocate capital based on covariance-driven signals
 
--Apply volatility and momentum filters
+- Apply volatility and momentum filters
 
 3. Risk Control
 
--Benchmark performance against SPY and sector benchmarks
+- Benchmark performance against SPY and sector benchmarks
 
--Evaluate drawdowns and Sharpe ratios
+- Evaluate drawdowns and Sharpe ratios
 
 ## Data
 Market data is retrieved using:
@@ -35,7 +35,7 @@ Market data is retrieved using:
 Example ETFs used:
 
 Sector	ETF
--Semiconductors	SOXX
+Semiconductors	SOXX
 -Technology	XLK
 -Financials	XLF
 -Energy	XLE
