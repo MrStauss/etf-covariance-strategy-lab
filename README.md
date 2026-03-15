@@ -1,21 +1,47 @@
 # ETF Covariance Strategy Lab
 
 ## Overview
-This project explores covariance-driven allocation strategies across major economic sectors. 
-Through sector specific ETFs and both controled leveraged and inverse ETF exposures. 
-The goal is to test whether covariance structure can improve tactical allocation decisions relative to
-passive benchmarks.
+This project explores covariance-driven allocation strategies across ETF sectors.
+The goal is to evaluate whether covariance structure between sector ETFs can be used to improve tactical allocation decisions relative to passive benchmarks.
+
+The research focuses on identifying relationships between sectors and dynamically adjusting exposure based on market structure.
+
+## Strategy Concept
+The strategy is based on three components:
+
+1. Covariance Structure Analysis
+
+-Estimate covariance relationships between sector ETFs
+
+-Identify dominant relationships between sectors
+
+2. Sector Rotation
+
+-Allocate capital based on covariance-driven signals
+
+-Apply volatility and momentum filters
+
+3. Risk Control
+
+-Benchmark performance against SPY and sector benchmarks
+
+-Evaluate drawdowns and Sharpe ratios
 
 ## Data
-- Yahoo Finance ETF data
-- Daily prices
-- Sample period: 2010–present
+Market data is retrieved using:
+-Yahoo Finance (yfinance)
+-Daily ETF price data
 
-## Strategy Design
-1. Estimate covariance matrix of ETF returns
-2. Identify dominant sector relationships
-3. Construct allocation weights based on covariance structure
-4. Apply volatility and momentum filters
+Example ETFs used:
+
+Sector	ETF
+-Semiconductors	SOXX
+-Technology	XLK
+-Financials	XLF
+-Energy	XLE
+-Utilities	XLU
+-Market Benchmark	SPY
+
 
 ## Benchmarks
 - SPY (market benchmark)
@@ -25,11 +51,23 @@ passive benchmarks.
 Include performance charts and summary statistics.
 
 ## Limitations
-This strategy does not include transaction costs
-or live trading constraints.
+This project is research-oriented and does not include:
+transaction costs
+slippage
+liquidity constraints
+
+Results should be interpreted as exploratory research rather than production trading signals.
 
 ## Future Work
 - Rolling covariance windows
 - Transaction cost modeling
 - regime-aware weighting
+
+## Technologies Used
+-Python
+-Pandas
+-NumPy
+-Matplotlib
+-SciPy
+-yfinance
  
