@@ -35,12 +35,12 @@ Market data is retrieved using:
 Example ETFs used:
 
 Sector	ETF
-Semiconductors	SOXX
--Technology	XLK
--Financials	XLF
--Energy	XLE
--Utilities	XLU
--Market Benchmark	SPY
+- Semiconductors	SOXX
+- Technology	XLK
+- Financials	XLF
+- Energy	XLE
+- Utilities	XLU
+- Market Benchmark	SPY
 
 
 ## Benchmarks
